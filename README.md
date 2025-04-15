@@ -54,7 +54,7 @@ This project can be easily launched using Docker Compose.
 
 4. Start the application with Docker Compose
    ```bash
-   docker-compose up -d
+   docker compose up -d
    ```
 
 5. Access the application in your browser at http://localhost:8080
@@ -63,7 +63,7 @@ This project can be easily launched using Docker Compose.
 
 To stop the application, run the following command:
 ```bash
-docker-compose down
+docker compose down
 ```
 
 ### Development
@@ -144,7 +144,7 @@ image-title-generator/
 │   ├── vue.config.js     # Vue configuration
 │   └── start.sh          # Frontend startup script
 │
-├── docker-compose.yml    # Docker Compose configuration
+├── docker-compose.yml    # Docker Compose configuration (can also be used with 'docker compose')
 └── README.md             # This file
 ```
 

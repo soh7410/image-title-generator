@@ -6,25 +6,25 @@ The fixes have been completed. Follow the steps below to rebuild and start Docke
 
 ```bash
 cd image-title-generator
-docker-compose down
+docker compose down
 ```
 
 ## 2. Rebuild Images
 
 ```bash
-docker-compose build --no-cache
+docker compose build --no-cache
 ```
 
 ## 3. Start Containers
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ## 4. Check Logs
 
 ```bash
-docker-compose logs -f
+docker compose logs -f
 ```
 
 ## Changes Made
@@ -56,5 +56,5 @@ For production environment, consider the following changes:
 
 ## Debug Information
 
-- Backend logs: `docker-compose logs -f backend`
-- Frontend logs: `docker-compose logs -f frontend`
+- Backend logs: `docker compose logs -f backend`
+- Frontend logs: `docker compose logs -f frontend`
