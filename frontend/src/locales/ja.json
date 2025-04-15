@@ -1,0 +1,54 @@
+{
+  "app": {
+    "title": "画像タイトル生成ツール",
+    "description": "画像に自動でタイトルを生成します",
+    "language": "言語",
+    "processButton": "タイトル生成＆ダウンロード",
+    "dropzone": "ここに画像をドロップするか、クリックして選択",
+    "selectFiles": "ファイルを選択",
+    "processing": "処理中...",
+    "success": "成功！画像が処理され、リネームされました。",
+    "error": "エラーが発生しました",
+    "noFiles": "少なくとも1つの画像ファイルを選択してください",
+    "languageOptions": {
+      "en": "English",
+      "ja": "日本語"
+    },
+    "processingStatus": "処理状況",
+    "processingSteps": {
+      "uploading": "画像アップロード中",
+      "caption": "キャプション生成中",
+      "title": "タイトル作成中",
+      "packaging": "ZIPファイル作成中",
+      "complete": "処理完了"
+    },
+    "estimatingTime": "残り時間を計算中...",
+    "estimatedTimeSeconds": "推定残り時間: {seconds} 秒",
+    "estimatedTimeMinutes": "推定残り時間: {minutes} 分 {seconds} 秒",
+    "fileStatus": {
+      "pending": "待機中",
+      "processing": "処理中",
+      "caption": "キャプション取得中",
+      "title": "タイトル作成中",
+      "complete": "完了",
+      "error": "エラー"
+    },
+    "file": "ファイル",
+    "files": "ファイル",
+    "aboutApp": {
+      "title": "このアプリケーションについて",
+      "description": "このアプリケーションは <a href=\"https://ai.io.net/ai/models\" target=\"_blank\">IO Intelligence API</a> を使って作成されています。オープンソースのモデルを分散化されたGPU上で動かしているため、クラウドにアップロードできない機密性の高い写真や個人的な写真のタイトル生成に最適です。すべての処理はローカル環境で行われるため、プライバシーを守りながら写真管理の効率化が可能です。",
+      "caution": "ご注意",
+      "cautionText": "IO Intelligence APIは1日の利用限度やレートリミットがあるため、集中して使用するとエラーが発生する場合があります。その場合は、時間をおいて再度お試しください。",
+      "creator": "制作者: soh",
+      "privacyNote": "※プライバシーを重視し、すべての処理はローカルで完結します"
+    },
+    "flowDiagram": {
+      "title": "処理フロー",
+      "uploadStep": "画像のアップロード",
+      "apiStep": "IO Intelligence API",
+      "titleStep": "タイトル生成",
+      "downloadStep": "ZIP形式でダウンロード"
+    }
+  }
+}

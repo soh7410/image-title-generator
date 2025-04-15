@@ -1,0 +1,54 @@
+{
+  "app": {
+    "title": "Image Title Generator",
+    "description": "Automatically generate titles for your images",
+    "language": "Language",
+    "processButton": "Generate Titles & Download",
+    "dropzone": "Drop images here or click to select",
+    "selectFiles": "Select Files",
+    "processing": "Processing...",
+    "success": "Success! Images processed and renamed.",
+    "error": "Error occurred",
+    "noFiles": "Please select at least one image file",
+    "languageOptions": {
+      "en": "English",
+      "ja": "Japanese"
+    },
+    "processingStatus": "Processing Status",
+    "processingSteps": {
+      "uploading": "Uploading images",
+      "caption": "Generating captions",
+      "title": "Creating titles",
+      "packaging": "Creating ZIP file",
+      "complete": "Processing completed"
+    },
+    "estimatingTime": "Estimating remaining time...",
+    "estimatedTimeSeconds": "Estimated time remaining: {seconds} seconds",
+    "estimatedTimeMinutes": "Estimated time remaining: {minutes} min {seconds} sec",
+    "fileStatus": {
+      "pending": "Pending",
+      "processing": "Processing",
+      "caption": "Getting caption",
+      "title": "Creating title",
+      "complete": "Completed",
+      "error": "Error"
+    },
+    "file": "file",
+    "files": "files",
+    "aboutApp": {
+      "title": "About This Application",
+      "description": "This application is built using the <a href=\"https://ai.io.net/ai/models\" target=\"_blank\">IO Intelligence API</a>. By leveraging open-source models running on distributed GPUs, it's perfect for generating titles for confidential or personal photos that you can't upload to cloud services. All processing is done locally, allowing you to improve your photo management while maintaining privacy.",
+      "caution": "Please Note",
+      "cautionText": "The IO Intelligence API has daily usage limits and rate limits. If many users access it simultaneously, you may encounter errors. In such cases, please try again later.",
+      "creator": "Created by: soh",
+      "privacyNote": "※All processing is completed locally to ensure your privacy"
+    },
+    "flowDiagram": {
+      "title": "Process Flow",
+      "uploadStep": "Upload Images",
+      "apiStep": "IO Intelligence API",
+      "titleStep": "Generate Titles",
+      "downloadStep": "Download as ZIP"
+    }
+  }
+}
