@@ -39,7 +39,7 @@ This project can be easily launched using Docker Compose.
 
 1. Navigate to the project root directory
    ```bash
-   cd /your_project_root/image-title-generator
+   cd image-title-generator
    ```
 
 2. Create a .env file
@@ -111,6 +111,14 @@ npm install
 3. Drag & drop or click to select image files
 4. Click the "Generate Titles & Download" button
 5. When processing is complete, renamed image files will be automatically downloaded as a ZIP file
+
+### Demo Video
+
+Check out this demonstration video to see the Image Title Generator in action:
+
+[![Image Title Generator Demo](https://img.youtube.com/vi/nj_VtAsiseM/0.jpg)](https://youtu.be/nj_VtAsiseM)
+
+*Click the image above to watch the demo on YouTube*
 
 ## Project Structure
 

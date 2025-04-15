@@ -5,7 +5,7 @@ The fixes have been completed. Follow the steps below to rebuild and start Docke
 ## 1. Stop and Remove Existing Containers
 
 ```bash
-cd /your_project_root/image-title-generator
+cd image-title-generator
 docker-compose down
 ```
 
